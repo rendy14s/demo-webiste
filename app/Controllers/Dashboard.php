@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 
-class DashboardController extends Controller
+class Dashboard extends Controller
 {
 
     public function index()
@@ -12,7 +12,7 @@ class DashboardController extends Controller
         return view('welcome_message');
     }
 
-    public function showme($page = 'DashboardScreen')
+    public function showme($page = 'dashboard')
     {
         if (!is_file(APPPATH . '/Views/pages/' . $page . '.php')) {
             // Whoops, we don't have a page for that!
