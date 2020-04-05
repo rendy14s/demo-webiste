@@ -7,12 +7,7 @@ use CodeIgniter\Controller;
 class Dashboard extends Controller
 {
 
-    public function index()
-    {
-        return view('welcome_message');
-    }
-
-    public function showme($page = 'dashboard')
+    public function index($page = 'dashboard')
     {
         if (!is_file(APPPATH . '/Views/pages/' . $page . '.php')) {
             // Whoops, we don't have a page for that!
