@@ -7,7 +7,7 @@
 
 <body>
 
-    <h1>Hi www.hellogan.com</h1>
+    <h1>About HelloGan</h1>
 </body>
 
 </html>

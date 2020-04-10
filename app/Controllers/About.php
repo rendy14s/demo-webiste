@@ -4,11 +4,10 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 
-
-class Dashboard extends Controller
+class About extends Controller
 {
 
-    public function index($page = 'dashboard')
+    public function index($page = 'about')
     {
         if (!is_file(APPPATH . '/Views/pages/' . $page . '.php')) {
             // Whoops, we don't have a page for that!
